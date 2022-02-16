@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+
+<html lang="en">
+{%load static%}
+<head>
+    <meta charset="UTF-8">
+    <title>crud</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css'%}">
+</head>
+<body>
+<div class="container mt-5">
+    <h1 class="text-center alert alert-danger">I am going to apply crud opreation</h1>
+    {%block content%} {%endblock content%}
+</div>
+
+<script src="{% static 'js/bootstrap.min.js'%}"></script>
+<script src="{% static 'js/popper.js'%}"></script>
+<script src="{% static 'js/jquery.js'%}"></script>
+</body>
+</html>
